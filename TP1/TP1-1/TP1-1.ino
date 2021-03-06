@@ -14,6 +14,6 @@ void loop() {
   delay(1000);                       // wait for a second
   digitalWrite(redLED, LOW);
   digitalWrite(greenLED, HIGH); 
-  delay(1000);
+  delay(2000);                       // wait for two seconds
   digitalWrite(greenLED, LOW);
 }
